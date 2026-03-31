@@ -539,17 +539,11 @@ FW_VERSIONS = {
   CAR.GENESIS_G80_2ND_GEN_FL: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00RG3_ SCC -----      1.00 1.02 99110-T1120         ',
-      b'\xf1\x00RG3_ SCC FHCUP      1.00 1.01 99110-T1120         ',
-      b'\xf1\x8b !\x12\x01',
-      b'\xf1\x10\x17\xdf\t\x00',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00RG3 MFC  AT USA LHD 1.00 1.01 99211-T1200 230607',
-      b'\xf1\x00RG3 MFC  AT USA LHD 1.00 1.01 99211-T1110 210430',
-      b'\xf1\x8b "\x01\x04',
     ],
   },
-  '''
   CAR.GENESIS_G80_2ND_GEN: {
     (Ecu.cornerRadar, 0x7b7, None):[
       b'\xf1\x00RG3 BCW RR 1.00 , 1.01 (u5E!\x02\x88\x01\x08',
@@ -582,7 +576,6 @@ FW_VERSIONS = {
       b'\xf1\x00RG3 MFC  AT USA LHD 1.00 1.01 99211-T1110 210430',
       b'\xf1\x8b "\x01\x04',
     ],
-    '''
   },
   CAR.GENESIS_G90: {
     (Ecu.fwdRadar, 0x7d0, None): [
