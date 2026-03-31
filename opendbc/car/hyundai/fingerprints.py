@@ -545,8 +545,32 @@ FW_VERSIONS = {
     ],
   },
   CAR.GENESIS_G80_2ND_GEN: {
+    (Ecu.cornerRadar, 0x7b7, None):[
+      b'\xf1\x00RG3 BCW RR 1.00 , 1.01 (u5E!\x02\x88\x01\x08',
+      b'\xf1\x8b !\x10\x16 !\x10\x15\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00RG3_ SCC FHCUP      1.00 1.01 99110-T1120         ',
+      b'\xf1\x8b !\x12\x01',
+      b'\xf1\x10\x17\xdf\t\x00',
+    ],
+    (Ecu.hvac, 0x7b3, None): [
+      b"\xf1\x00RG3   97255-T1040CONTROL ASS'Y-DATC  1.04RG3 DATC(-)2.4       ",
+    ],
+    (Ecu.transmission, 0x7e1, None): [
+      b'\xf1\x00PSBG2441  G17\x00\x00\x00\x00\x00\x00\x00SRG3T35XXSG17NS0y\xeb\x12\xf7',
+      b'\xf1\x8795441-4J945\x00\xf1\x89G17\x00\x00\x00\x00\x00\x00\x00\xf1\x82SRG3T35XXSG17NS0',
+      b'SRG3T35XXSG17NS0',
+    ],
+    (Ecu.combinationMeter, 0x7c6, None): [
+      b'\xf1\x00007',
+    ],
+    (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00RG3 MDPS R 1.00 1.00 57700-T1600 1427',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'\xf1\x87           \xf1\x89????????????????\xf1\x82TRGS2NL0HF100M0J',
+      b'TRGS2NL0HF100M0J',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00RG3 MFC  AT USA LHD 1.00 1.01 99211-T1110 210430',
